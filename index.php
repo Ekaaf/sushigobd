@@ -100,7 +100,7 @@
 					<div class="inner-column">
 						<div class="sec-title">
 							<div class="title">Introduction</div>
-							<h2>Welcome To Our Sushigobd</h2>
+							<h2>Welcome To Sushi Go</h2>
 							<div class="text">Mauris semper scelerisque lacus nec congue. Nulla tincidunt dui ut massa tempus lobortis. Vivamus dignissim tempus odio, et suscipit nulla tincidunt elementum phasellus maximus felis sed iaculis </div>
 						</div>
 						<ul class="list-style-one">
