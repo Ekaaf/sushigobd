@@ -3,21 +3,9 @@
 
 <!-- Mirrored from codexlayer.com/html/comida_punto/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Oct 2022 09:51:13 GMT -->
 <head>
-<meta charset="utf-8">
-<title>Comida Restaurant HTML-5 Template | Gallery</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;family=Lato:wght@100;300;400;700;900&amp;family=Playfair+Display:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<?php
+	include('layout/head.php');
+?>
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
@@ -105,144 +93,8 @@
 						</div>
 					</div>
 					
-					<div class="gallery-block-two mix all dinner desserts col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/19.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/19.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					
-					<div class="gallery-block-two mix all hour beverages col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/20.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/20.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					
-					<div class="gallery-block-two mix all dinner desserts col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/21.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/21.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="gallery-block-two mix all dinner  col-lg-8 col-md-12 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/22.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/22.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="gallery-block-two mix all hour desserts col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/23.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/23.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="gallery-block-two mix all dinner desserts col-lg-6 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/24.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/24.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="gallery-block-two mix all hour beverages col-lg-6 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/25.jpg" alt="" />
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="images/gallery/25.jpg" data-fancybox="main-gallery" data-caption="" class="icon"><img src="images/icons/cap-5.png" alt="" /></a>
-										</div>
-									</div>
-									<div class="lower-content">
-										<div class="title">Desert</div>
-										<h4>Birthday Cake</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
-				<!-- Button Box -->
-				<div class="btn-box text-center">
-					<a class="theme-btn btn-style-three" href="#"><span class="txt">Load More Photos</span></a>
 				</div>
 				
 			</div>

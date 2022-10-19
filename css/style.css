@@ -1809,7 +1809,7 @@ img{
 
 .sticky-header .main-menu .navigation > li:hover > a,
 .sticky-header .main-menu .navigation > li.current > a{
-	color:#c19d60;
+	color:#c19d60 !important;
 	background-color:inherit !important;
 }
 

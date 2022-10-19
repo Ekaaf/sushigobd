@@ -3,21 +3,9 @@
 
 <!-- Mirrored from codexlayer.com/html/comida_punto/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Oct 2022 09:51:40 GMT -->
 <head>
-<meta charset="utf-8">
-<title>Comida Restaurant HTML-5 Template | Contact Us</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;family=Lato:wght@100;300;400;700;900&amp;family=Playfair+Display:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<?php
+	include('layout/head.php');
+?>
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
@@ -60,10 +48,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<span class="icon flaticon-phone-call"></span>
-								<h4>Book a table</h4>
+								<h4>Call us</h4>
 								<ul>
-									<li>Phone : <a href="tel:+101-987-567-234">+101 987 567 234</a></li>
-									<li>Fax : <a href="tel:+101-678-123-987">+101 678 123 987</a></li>
+									<li>Phone : <a href="tel:+101-987-567-234">01744-474356</a></li>
 								</ul>
 							</div>
 						</div>
@@ -76,8 +63,7 @@
 								<span class="icon flaticon-email"></span>
 								<h4>E-mail Us</h4>
 								<ul>
-									<li>Support : <a href="mailto:goldenspoon@gmail.com">goldenspoon@gmail.com</a></li>
-									<li>Sales : <a href="mailto:goldenspoon@gmail.com">goldenspoon@gmail.com</a></li>
+									<li>Email : <a href="mailto:goldenspoon@gmail.com">info@sushigobd.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -90,7 +76,7 @@
 								<span class="icon flaticon-placeholder"></span>
 								<h4>Our Location</h4>
 								<ul>
-									<li>22 Alnahas Building,  AlBahr St, Tanta Al-Gharbia Governorate</li>
+									<li>Anabil Tower, Plot # 3 , Block -NW(J Gulshan North Avenue, Kemal Ataturk Ave, Dhaka, Bangladesh</li>
 								</ul>
 							</div>
 						</div>
@@ -108,68 +94,19 @@
 		<div class="auto-container">
 			<div class="row clearfix">
 				<!-- Form Column -->
-				<div class="form-column col-lg-8 col-md-12 col-sm-12">
+				<div class="form-column col-lg-12 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<!-- Sec Title -->
 						<div class="sec-title">
-							<div class="title">Reservation</div>
-							<h2>Book Your Table</h2>
+							<!-- <div class="title">Reservation</div> -->
+							<h2>Google Map Location</h2>
 						</div>
 						
 						<!-- Contact Form -->
 						<div class="contact-form">
-							<form method="post" action="https://codexlayer.com/html/comida_punto/sendemail.php" id="contact-form">
-								<div class="row clearfix">
-								
-									<!-- Form Group -->
-									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="name" placeholder="Name" required="">
-									</div>
-									
-									<!-- Form Group -->
-									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="email" name="email" placeholder="Email" required="">
-									</div>
-									
-									<!-- Form Group -->
-									<div class="form-group col-lg-12 col-md-12 col-sm-12">
-										<input type="text" name="subject" placeholder="Subject" required="">
-									</div>
-									
-									<!-- Form Group -->
-									<div class="form-group col-lg-12 col-md-12 col-sm-12">
-										<textarea name="message" placeholder="Additional Information *"></textarea>
-									</div>
-									
-									<!-- Form Group -->
-									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<button class="theme-btn btn-style-three" type="submit" name="submit-form"><span class="txt">Book Now</span></button>
-									</div>
-									
-								</div>
-							</form>
+							<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=anabil%20tower%20gulshan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
 						</div>
 						
-					</div>
-				</div>
-				
-				<!-- Info Column -->
-				<div class="info-column col-lg-4 col-md-12 col-sm-12">
-					<div class="inner-column" style="background-image: url(images/background/reserve-info.jpg)">
-						<!-- Sec Title -->
-						<div class="sec-title light centered">
-							<div class="title">Reservation</div>
-							<h2>Book Your Table</h2>
-						</div>
-						<ul class="table-list">
-							<li>Mon - Tue<span>07:00AM - 2:00AM</span></li>
-							<li>Wed - Thur<span>06:00AM - 1:00AM</span></li>
-							<li>Friday<span>Closed</span></li>
-							<li>Sat - Sun<span>07:30AM - 4:00AM</span></li>
-						</ul>
-						<div class="btn-box text-center">
-							<a class="phone" href="tel:+101-987-567-234">+101 987 567 234</a>
-						</div>
 					</div>
 				</div>
 				

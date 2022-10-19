@@ -6,7 +6,7 @@
     	<div class="outer-container clearfix">
         	
 			<div class="pull-left logo-box">
-				<div class="logo"><a href="index-2.html"><img src="images/logo.jpg" alt="" title=""></a></div>
+				<div class="logo"><a href="index.php"><img src="images/logo.jpg" alt="" title=""></a></div>
 			</div>
 			
 			<div class="nav-outer clearfix">
@@ -25,13 +25,13 @@
 					
 					<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 						<ul class="navigation clearfix">
-							<li class="current dropdown"><a href="index.php">Home</a>
+							<li class="<?php if(strpos($_SERVER['REQUEST_URI'], 'index.php')) echo 'current'; ?> dropdown"><a href="index.php">Home</a>
 							</li>
-							<li class="dropdown"><a href="about.php">About</a>
+							<li class="<?php if(strpos($_SERVER['REQUEST_URI'], 'about.php')) echo 'current'; ?> dropdown"><a href="about.php">About</a>
 							</li>
-							<li class="dropdown"><a href="menu.php">Menu</a>
+							<li class="<?php if(strpos($_SERVER['REQUEST_URI'], 'menu.php')) echo 'current'; ?> dropdown"><a href="menu.php">Menu</a>
 							</li>
-							<li class="dropdown"><a href="gallery.php">Gallery</a>
+							<li class="<?php if(strpos($_SERVER['REQUEST_URI'], 'gallery.php')) echo 'current'; ?> dropdown"><a href="gallery.php">Gallery</a>
 							</li>
 							<li><a href="contact.php">Contact us</a></li>
 						</ul>
@@ -108,7 +108,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index-2.html" title=""><img src="images/logo.jpg" alt="" title=""></a>
+                <a href="index.php" title=""><img src="images/logo.jpg" alt="" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
@@ -174,7 +174,7 @@
         <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
         
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index-2.html"><img src="images/logo.jpg" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.php"><img src="images/logo.jpg" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
     </div><!-- End Mobile Menu -->
